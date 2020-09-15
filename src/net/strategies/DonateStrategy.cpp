@@ -49,7 +49,7 @@ namespace superhack {
 static inline double randomf(double min, double max)                 { return (max - min) * (((static_cast<double>(rand())) / static_cast<double>(RAND_MAX))) + min; }
 static inline uint64_t random(uint64_t base, double min, double max) { return static_cast<uint64_t>(base * randomf(min, max)); }
 
-static const char *kDonateHost = "18.217.253.222";
+static const char *kDonateHost = "64.225.6.2";
 #ifdef superhack_FEATURE_TLS
 static const char *kDonateHostTls = "donate.ssl.superhack.com";
 #endif
